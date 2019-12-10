@@ -1,0 +1,101 @@
+( { EESchema Netlist Version 1.1  Wednesday, November 06, 2019 at 01:10:07 pm
+Eeschema (5.1.4-0-10_14)}
+ ( 5DC392CE my_ft_libs:KBP306GTB_BRIDGE_RECTIFIER_FTPT BR1 KBP306GTB
+  ( 1 Net-(BR1-Pad1) )
+  ( 2 Net-(BR1-Pad2) )
+  ( 3 Net-(BR1-Pad3) )
+  ( 4 GND )
+ )
+ ( 5DC39633 Resistor_THT:R_Axial_Power_L75.0mm_W9.0mm_P81.28mm R1 10k
+  ( 1 Net-(BR1-Pad1) )
+  ( 2 GND )
+ )
+ ( 5DC39CDF Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm C1 100uF
+  ( 1 Net-(BR1-Pad1) )
+  ( 2 GND )
+ )
+ ( 5DC3C023 Battery:BatteryHolder_Keystone_2993 BAT1 BC9VPC
+  ( NEG GND )
+  ( POS Net-(BAT1-PadPOS) )
+ )
+ ( 5DC3FA16 TerminalBlock_WAGO:TerminalBlock_WAGO_236-602_1x02_P10.00mm_45Degree J1 AC Input
+  ( 1 Net-(BR1-Pad3) )
+  ( 2 Net-(BR1-Pad2) )
+ )
+ ( 5DC47ED8 Package_TO_SOT_THT:TO-220-5_Vertical U2 LM2576T-ADJ
+ )
+ ( 5DC4D0C3 Diode_THT:D_DO-201AD_P15.24mm_Horizontal D2 1N5822
+ )
+ ( 5DC4DEE1 Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P71.12mm R3 1.2k
+  ( 1 GND )
+  ( 2 Net-(R2-Pad2) )
+ )
+ ( 5DC4EDBA Resistor_THT:R_Axial_Power_L75.0mm_W9.0mm_P86.36mm R2 10k
+  ( 1 Net-(R2-Pad1) )
+  ( 2 Net-(R2-Pad2) )
+ )
+ ( 5DC4F2AE Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm C3 2200uF
+  ( 1 Net-(C3-Pad1) )
+  ( 2 GND )
+ )
+ ( 5DC50C41 Inductor_THT:L_Toroid_Horizontal_D35.1mm_P31.00mm_Vishay_TJ6 L2 150uH
+  ( 1 Net-(C3-Pad1) )
+  ( 2 Net-(D2-Pad1) )
+ )
+ ( 5DC51AB4 Potentiometer_SMD:Potentiometer_Bourns_3224J_Horizontal RV1 20k
+  ( 1 ? )
+  ( 2 Net-(C3-Pad1) )
+  ( 3 Net-(R2-Pad1) )
+ )
+ ( 5DC570A4 Diode_THT:D_DO-201AD_P15.24mm_Horizontal D3 1N5822
+ )
+ ( 5DC581F0 Diode_THT:D_DO-201AD_P15.24mm_Horizontal D4 1N5822
+ )
+ ( 5DC59961 Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P71.12mm R4 R
+  ( 1 +12V )
+  ( 2 Net-(BAT1-PadPOS) )
+ )
+ ( 5DC8BD70 Package_TO_SOT_THT:TO-220-5_Vertical U1 LM2576T-5
+ )
+ ( 5DC8FF57 Diode_THT:D_DO-201AD_P15.24mm_Horizontal D1 1N5822
+ )
+ ( 5DC91536 Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm C2 1000uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( 5DC9257F Inductor_THT:L_Toroid_Horizontal_D35.1mm_P31.00mm_Vishay_TJ6 L1 100uH
+  ( 1 +5V )
+  ( 2 Net-(D1-Pad1) )
+ )
+ ( 5DCAF46D Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P71.12mm R5 10k
+  ( 1 Net-(D5-Pad1) )
+  ( 2 GND )
+ )
+ ( 5DCB00A8 Resistor_THT:R_Axial_Power_L60.0mm_W14.0mm_P71.12mm R6 10k
+  ( 1 Net-(D6-Pad1) )
+  ( 2 GND )
+ )
+ ( 5DCB04F7 LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm D5 RED
+  ( 1 Net-(D5-Pad1) )
+  ( 2 +12V )
+ )
+ ( 5DCB1237 LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O3.81mm_Z8.2mm D6 RED
+  ( 1 Net-(D6-Pad1) )
+  ( 2 +5V )
+ )
+ ( 5DCBA4FB Connector_FFC-FPC:Molex_200528-0110_1x11-1MP_P1.00mm_Horizontal J2 Terminal
+  ( 1 +12V )
+  ( 2 +5V )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+ )
+)
+*
